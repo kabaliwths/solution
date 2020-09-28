@@ -29,7 +29,9 @@ The function is getting all the appropriate information from event object such u
 
 
 docker build -t datawire/hello-world .    -> Build the image
+
 docker tag ff6233d0ceb9 247212451018.dkr.ecr.us-east-2.amazonaws.com/production/hello:1
+
 docker push 247212451018.dkr.ecr.us-east-2.amazonaws.com/production/hello:1
 
 
